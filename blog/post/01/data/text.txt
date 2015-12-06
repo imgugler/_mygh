@@ -1,0 +1,12 @@
+<p class="para para-justify">
+	문단 예시입니다.
+</p>
+<blockquote>
+	<p class="para">
+		인용 예시입니다..
+	</p>
+	<cite>강신주(철학박사)</cite>
+</blockquote> 
+<p class="para para-justify">
+	문단 예시입니다.
+</p>

@@ -1,0 +1,48 @@
+/*
+  webpyobum.github.io
+  cutsomizing scss
+*/
+.header{
+	position:fixed;
+	width:100%;
+	height:44px;
+	background:#333;
+	text-align:center;
+	>.top{
+		position:relative;
+		.btn-hamberger{
+		  position:absolute;
+		  top:0;
+		  right:0;
+		  display:block;
+		  width:44px;
+		  height:44px;
+		  background:none;
+		  border:0;
+		  outline:0;
+		  background:#333;
+		}
+		.btn-hamberger>.line{
+		  position:absolute;
+		  left:0px;
+		  display:block;
+		  width:100%;
+		  height:2px;
+		  background:#fff;
+		}
+		.btn-hamberger>.line01{top:14px;}
+		.btn-hamberger>.line02{top:29px;}
+	}
+	.logo{
+		text-decoration:none;
+		background:none;
+		>img{
+			height:35px;
+			padding-top:3px;
+		}
+	}
+	
+	.site-nav{
+		color:yellow;
+	}
+}
